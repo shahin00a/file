@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: 100%;
+    background-color: whitesmoke;
+    height: 150px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.logo {
+    width: 160px;
+    height: 120px;
+
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 25px;
+
+
+    li a {
+        text-decoration: none;
+
+    }
+}
+
+
+
+.services {
+    width: 100%;
+    height: 440px;
+    background-color: rgb(244, 245, 245);
+    text-align: center;
+
+}
+
+.service-heading {
+    padding-top: 30px;
+    font-size: 30px;
+    color: tomato;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+.service-para {
+    font-size: 25px;
+
+    margin-bottom: 30px;
+}
+
+.service-cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.service-card {
+    width: 250px;
+    height: 280px;
+    background-color: rgb(244, 250, 248);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 14px;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.2);
+}
+
+.icon-div {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: tomato;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-icon {
+    font-size: 30px;
+    color: white;
+}
